@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Barlow:wght@300;400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-bg: #08090f;
+    --color-s1: #0d0f1a;
+    --color-s2: #111422;
+    --color-s3: #161a28;
+    --color-b1: #1a1e2e;
+    --color-b2: #222840;
+    --color-b3: #2a3254;
+    --color-gold: #f0a020;
+    --color-gold2: #ffd060;
+    --color-blue: #4488ff;
+    --color-green: #22cc80;
+    --color-purple: #aa66ff;
+    --color-red: #ee4040;
+    --color-cyan: #22ddcc;
+    --color-txt: #bcc4da;
+    --color-m1: #50597a;
+    --color-m2: #7080a0;
+
+    --font-orbitron: "Orbitron", monospace;
+    --font-barlow: "Barlow", sans-serif;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-txt);
+    font-family: var(--font-barlow);
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-b2);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-m1);
+}
