@@ -380,7 +380,7 @@ export default function App() {
             onSortByChange={setSortBy}
           />
 
-          <div ref={listRef} className="relative flex-1 overflow-hidden">
+          <div ref={listRef} className="relative flex-1 overflow-auto">
             {hasData ? (
               <ChannelList
                 channels={filteredChannels}
