@@ -37,7 +37,7 @@ export default function App() {
   const {
     channels,
     setChannels,
-    originalChannels,
+    // originalChannels,
     setOriginalChannels,
     originalLcn,
     setOriginalLcn,
